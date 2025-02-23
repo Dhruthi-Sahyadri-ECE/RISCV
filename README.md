@@ -76,40 +76,22 @@ Binary Encoding: 00000000 00000000 000 00000 1100111
 
 <summary> TASK 5
 
-## OVERVIEW OF SMART PLANT CARE VSD QUADRON MINI BOARD
+## OVERVIEW OF Implementation of 2-bit Comparator using VSDSquadron Mini Board
 
-The Smart Plant Care system operates through a network of interconnected components that work together to provide real-time monitoring and automated watering solutions. The user can remotely monitor the plant’s environment and adjust the soil moisture threshold via a WiFi-connected interface. When the soil moisture level falls below the set threshold, the system automatically activates a water pump to deliver the necessary amount of water to the plant. This process helps in conserving water and ensuring that the plant remains healthy.
+
+This project aims to design and implement a 2-bit comparator using the VSDSquadron Mini board. A 2-bit comparator is a digital circuit that compares two 2-bit binary numbers and indicates whether one number is greater than, less than, or equal to the other. The project involves designing the comparator logic using C programming in Visual Studio Code, setting up the hardware connections on a breadboard, and verifying the functionality through LEDs connected to the output.
 
 ## COMPONENTS REQUIRED
-CH32V003F4U6 Microcontroller: Acts as the central processing unit, managing sensor data and system operations.
-ESP-01S ESP8266 WiFi Module: Facilitates wireless communication, allowing remote data monitoring and control.
-Soil Moisture Sensor Module: Detects the moisture content in the soil.
-DHT11 Humidity and Temperature Sensor: Measures ambient temperature and humidity.
-Water Pump: Provides irrigation to the plant when needed.
-Relay Module: Helps to control high-power pump with low-power signals.
-Switch: Manages the on/off states of the water pump.
+VSDSquadron Mini Board : The main microcontroller board used for processing and logic implementation.
+Breadboard and Jumper Wires : For building and testing the circuit.
+LEDs : To display the comparison results.This project requires 3 LEDs.
+Resistors : To limit the current to the LEDs.220Ohm resistors are used in this project.
 
 ## TABLE FOR PIN CONFIGURATION
-For Soil Moisture senosor
-VCC - 3.3V
-GND - GND
-SIG - PA2
-
-FOR RELAY MODULE
-VCC - 3.3V
-GND - GND
-IN - PC0
-
-FOR ESP 01S 8266 WIFI MODULE
-VCC - 3.3V
-CH_EN - 3.3V
-GND - GND
-UORXD - PD5
-UOTXD - PD6
-
-
-
-
+LED  	VSD SQUADRON BOARD
+LED1 -	PIN4 (PD4)
+LED2 -	PIN5 (PD5)
+LED3 -	PIN6 (PD6)
 
 
 
