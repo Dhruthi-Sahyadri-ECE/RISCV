@@ -79,19 +79,24 @@ Binary Encoding: 00000000 00000000 000 00000 1100111
 ## OVERVIEW OF Implementation of 2-bit Comparator using VSDSquadron Mini Board
 
 
-This project aims to design and implement a 2-bit comparator using the VSDSquadron Mini board. A 2-bit comparator is a digital circuit that compares two 2-bit binary numbers and indicates whether one number is greater than, less than, or equal to the other. The project involves designing the comparator logic using C programming in Visual Studio Code, setting up the hardware connections on a breadboard, and verifying the functionality through LEDs connected to the output.
+This project aims to design and implement a 1-bit comparator using the VSD Squadron Mini Board. A 1-bit comparator is a digital circuit that compares two 1-bit binary numbers (A and B) and determines whether:
+
+A > B (Greater than)
+A = B (Equal to)
+A < B (Less than)
+The project involves designing the comparator logic using C programming in Visual Studio Code, setting up the hardware connections on a breadboard, and verifying the functionality through LEDs connected to the output.
 
 ## COMPONENTS REQUIRED
-VSDSquadron Mini Board : The main microcontroller board used for processing and logic implementation.
-Breadboard and Jumper Wires : For building and testing the circuit.
-LEDs : To display the comparison results.This project requires 3 LEDs.
-Resistors : To limit the current to the LEDs.220Ohm resistors are used in this project.
-
+VSDSquadron Mini Board 
+Breadboard and Jumper Wires 
+LEDs 
+Resistors 
+Push button
 ## TABLE FOR PIN CONFIGURATION
 LED  	VSD SQUADRON BOARD
-LED1 -	PIN4 (PD4)
-LED2 -	PIN5 (PD5)
-LED3 -	PIN6 (PD6)
-
-
+LED1 -	PIN4 (PC4)
+LED2 -	PIN5 (PC5)
+LED3 -	PIN6 (PC6)
+PUSH BUTTON 1 - PIN2 (PD2)
+PUSH BUTTON 2 - PIN1 (PD1)
 
